@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "80147291-f649-494e-bf51-34f2643eb9a7",
+		"name": "Postman-Collection-ForTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29108989",
+		"_collection_link": "https://universal-star-147873.postman.co/workspace/f583b9d6-74fd-4ab4-9477-b10f53076ef3/collection/29108989-80147291-f649-494e-bf51-34f2643eb9a7?action=share&source=collection_link&creator=29108989"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/allstudentsinfo",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"allstudentsinfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"studentAge\": 64,\r\n        \"studentName\": \"Swati\",\r\n        \"courseName\": \"PG-DAMS\",\r\n        \"courseFee\": 115000.0\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/addstudentInfo",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addstudentInfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"studentId\": 7,\r\n        \"studentAge\": 27,\r\n        \"studentName\": \"Priyanka\",\r\n        \"courseName\": \"PG-DAC\",\r\n        \"courseFee\": 125000.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/updatestudentInfo",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"updatestudentInfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/deletestudentinfo/8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"deletestudentinfo",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,16 @@
+For Testing purpose --->
+
+
+-> We can access swagger ui using below URL
+
+		http://localhost:8080/swagger-ui.html#/
+
+
+-> We can access Embedded Database (H2) using below url
+
+		http://localhost:8080/h2-console
+
+                             username - nilesh
+                             password - nilesh
+
+-> Consider Postman Collection json file for Testing CRUD operation through Postman
